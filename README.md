@@ -18,7 +18,7 @@ See the [JBang website](https://jbang.dev/download) for options on how to instal
 Script that says hello back for each argument
 
  ```
- jbang hello@jbangdev
+ jbang hello@wfouche/jbang-catalog-jbangdev
  ```
 
 ### properties
@@ -26,7 +26,7 @@ Script that says hello back for each argument
 Dump table of System properties
 
  ```
- jbang properties@jbangdev
+ jbang properties@wfouche/jbang-catalog-jbangdev
  ```
 
 ### deps
@@ -34,7 +34,7 @@ Dump table of System properties
 Analyze JBang script dependencies
 
  ```
- jbang deps@jbangdev
+ jbang deps@wfouche/jbang-catalog-jbangdev
  ```
 
 ### env
@@ -42,7 +42,7 @@ Analyze JBang script dependencies
 Dump table of Environment Variables
 
  ```
- jbang env@jbangdev
+ jbang env@wfouche/jbang-catalog-jbangdev
  ```
 
 ### gavsearch
@@ -53,7 +53,7 @@ You can use any of the search modifiers search.maven.org supports, i.e.:
 `gavsearch c:QuarkusTest` will search for artifacts with class `QuarkusTest`
 
  ```
- jbang gavsearch@jbangdev
+ jbang gavsearch@wfouche/jbang-catalog-jbangdev
  ```
 
 ### git
@@ -61,7 +61,7 @@ You can use any of the search modifiers search.maven.org supports, i.e.:
 Git command line tool implemented with jgit. Lets you do basic git features without installing git!
 
  ```
- jbang git@jbangdev
+ jbang git@wfouche/jbang-catalog-jbangdev
  ```
 
 ### bouncinglogo
@@ -69,7 +69,7 @@ Git command line tool implemented with jgit. Lets you do basic git features with
 
 
  ```
- jbang bouncinglogo@jbangdev
+ jbang bouncinglogo@wfouche/jbang-catalog-jbangdev
  ```
 
 ### h2
@@ -77,7 +77,7 @@ Git command line tool implemented with jgit. Lets you do basic git features with
 
 
  ```
- jbang h2@jbangdev
+ jbang h2@wfouche/jbang-catalog-jbangdev
  ```
 
 ### catalog2readme
@@ -85,7 +85,7 @@ Git command line tool implemented with jgit. Lets you do basic git features with
 
 
  ```
- jbang catalog2readme@jbangdev
+ jbang catalog2readme@wfouche/jbang-catalog-jbangdev
  ```
 
 ### httpd
@@ -94,7 +94,7 @@ Git command line tool implemented with jgit. Lets you do basic git features with
 Example: `jbang httpd@jbangdev -d _site` will serve out the `_site` folder on localhost:8000.
 
  ```
- jbang httpd@jbangdev
+ jbang httpd@wfouche/jbang-catalog-jbangdev
  ```
 
 ### getjava
@@ -102,7 +102,7 @@ Example: `jbang httpd@jbangdev -d _site` will serve out the `_site` folder on lo
 Experimental utility to download Java distributions using api.foojay.io.
 
  ```
- jbang getjava@jbangdev
+ jbang getjava@wfouche/jbang-catalog-jbangdev
  ```
 
 ### ec
@@ -110,7 +110,7 @@ Experimental utility to download Java distributions using api.foojay.io.
 
 
  ```
- jbang ec@jbangdev
+ jbang ec@wfouche/jbang-catalog-jbangdev
  ```
 
 ### faker
@@ -118,7 +118,7 @@ Experimental utility to download Java distributions using api.foojay.io.
 
 
  ```
- jbang faker@jbangdev
+ jbang faker@wfouche/jbang-catalog-jbangdev
  ```
 
 ### dalle
@@ -126,7 +126,7 @@ Experimental utility to download Java distributions using api.foojay.io.
 
 
  ```
- jbang dalle@jbangdev
+ jbang dalle@wfouche/jbang-catalog-jbangdev
  ```
 
 ### bootstrap
@@ -134,7 +134,7 @@ Experimental utility to download Java distributions using api.foojay.io.
 Bootstrap a jbang script to make it self-contained.
 
  ```
- jbang bootstrap@jbangdev
+ jbang bootstrap@wfouche/jbang-catalog-jbangdev
  ```
 
 ### jmc
@@ -142,7 +142,7 @@ Bootstrap a jbang script to make it self-contained.
 
 
  ```
- jbang jmc@jbangdev
+ jbang jmc@wfouche/jbang-catalog-jbangdev
  ```
 
 ### mf
@@ -179,7 +179,7 @@ mf `jbang info jar org.junit.jupiter:junit-jupiter:5.10.0` --yaml--structured
 ```
 
  ```
- jbang mf@jbangdev
+ jbang mf@wfouche/jbang-catalog-jbangdev
  ```
 
 ### jbang-fmt
@@ -187,7 +187,7 @@ mf `jbang info jar org.junit.jupiter:junit-jupiter:5.10.0` --yaml--structured
 Format Java code (without messing up JBang directives).
 
  ```
- jbang jbang-fmt@jbangdev
+ jbang jbang-fmt@wfouche/jbang-catalog-jbangdev
  ```
 
 ### jbang-jupyter
@@ -195,7 +195,7 @@ Format Java code (without messing up JBang directives).
 
 
  ```
- jbang jbang-jupyter@jbangdev
+ jbang jbang-jupyter@wfouche/jbang-catalog-jbangdev
  ```
 
 ### trylink
@@ -203,7 +203,7 @@ Format Java code (without messing up JBang directives).
 
 
  ```
- jbang trylink@jbangdev
+ jbang trylink@wfouche/jbang-catalog-jbangdev
  ```
 
 ## Templates
@@ -214,7 +214,7 @@ Format Java code (without messing up JBang directives).
 Simple cli to querying github
 
  ```
- jbang init -t github@jbangdev
+ jbang init -t github@wfouche/jbang-catalog-jbangdev
  ```
 
 ### qmcp
@@ -222,7 +222,7 @@ Simple cli to querying github
 Simple cli to querying github
 
  ```
- jbang init -t qmcp@jbangdev
+ jbang init -t qmcp@wfouche/jbang-catalog-jbangdev
  ```
 
 ### jitpack
@@ -232,7 +232,7 @@ Initializes a bare-bone jitpack.yml to enable publishing a jbang script as a mav
 Example: `jbang init -t jitpack@jbangdev myapp.java` and then commit this to github and visit jitpack.io to trigger its build.
 
  ```
- jbang init -t jitpack@jbangdev
+ jbang init -t jitpack@wfouche/jbang-catalog-jbangdev
  ```
 
 ### renovate
@@ -242,7 +242,7 @@ Initializes a renovate.json to enable automatic management of any .java file //D
 Example: `jbang init -t renovate@jbangdev .github/renovate.json` and then commit this to github and if you installed https://github.com/apps/renovate renovate will make issues and PR's for dependency updates.
 
  ```
- jbang init -t renovate@jbangdev
+ jbang init -t renovate@wfouche/jbang-catalog-jbangdev
  ```
 
 ### junit
@@ -250,6 +250,6 @@ Example: `jbang init -t renovate@jbangdev .github/renovate.json` and then commit
 Basic template for JUnit tests
 
  ```
- jbang init -t junit@jbangdev
+ jbang init -t junit@wfouche/jbang-catalog-jbangdev
  ```
 
