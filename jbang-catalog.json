@@ -20,7 +20,7 @@
       "script-ref": "gavsearch.java",
       "description": "`gavsearch` lets you use search.maven.org from command line.\nExample: `gavsearch hibernate` will search for artifacts with hibernate in its name.\nYou can use any of the search modifiers search.maven.org supports, i.e.:\n`gavsearch c:QuarkusTest` will search for artifacts with class `QuarkusTest`"
     },
-    "git": {
+    "jgit": {
       "script-ref": "jgit.java",
       "description": "Git command line tool implemented with jgit. Lets you do basic git features without installing git!"
     },
